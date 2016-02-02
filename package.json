@@ -1,0 +1,16 @@
+{
+  "name": "redux-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.9",
+    "rxjs": "^5.0.0-beta.1",
+    "systemjs": "^0.19.17"
+  }
+}

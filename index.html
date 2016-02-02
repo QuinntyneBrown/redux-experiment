@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Redux Experiment</title>
+    <meta charset="utf-8" />
+
+    <script src="lib/rx.lite.js"></script>
+    <script src="lib/angular.js"></script>
+    <script src="wwwroot/metal/store.js"></script>
+    <script src="wwwroot/actions/actionCreator.js"></script>
+    <script src="wwwroot/actions/addAction.js"></script>
+    <script src="wwwroot/metal/dispatcher.js"></script>
+    <script src="wwwroot/metal/store.js"></script>
+    <script src="wwwroot/app.js"></script>
+</head>
+<body data-ng-app="app" data-ng-controller="appController as vm">
+
+    <h1>Redux Experiment</h1>
+
+    <h1 data-ng-click="vm.onClick()">Click Me</h1>
+
+    <h1>{{ vm.state }}</h1>
+</body>
+</html>

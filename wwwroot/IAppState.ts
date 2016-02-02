@@ -1,0 +1,3 @@
+﻿interface IAppState {
+    todos:ITodo[]
+}
